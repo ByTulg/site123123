@@ -1,0 +1,87 @@
+/*  style.css */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#add-movie,
+#movies-list {
+  margin-bottom: 20px;
+}
+
+#movie-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#movie-form input[type="text"],
+#movie-form input[type="number"],
+#movie-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#movie-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#movies-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#movies-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*  Регистрация и авторизация */
+#register-form,
+#login-form {
+  margin-bottom: 20px;
+}
+
+#register-form label,
+#login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#register-form input,
+#login-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#register-form button,
+#login-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/*  Информация о пользователе */
+#user-section {
+  display: none;
+  margin-bottom: 20px;
+}
+
+#username {
+  font-weight: bold;
+}
